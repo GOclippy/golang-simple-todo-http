@@ -11,4 +11,6 @@ func main() {
 	server := server.NewServer(handlers)
 
 	server.LaunchServer()
+
+	todo.StupidFunc()
 }
